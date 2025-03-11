@@ -2,7 +2,6 @@ enable-magisk-update = true
 parallel-jobs = 1
 
 [YouTube]
-enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 rv-brand = "ReVanced Extended"
