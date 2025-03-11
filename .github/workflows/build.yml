@@ -133,8 +133,10 @@ jobs:
           MSG="*New build available.*
 
           ${BODY}
+          
           *Check for updates in Magisk/KSU(N).*
           *Or download:*
+          
           Modules
           ${MODULES}
           "
