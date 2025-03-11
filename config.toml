@@ -12,7 +12,6 @@ included-patches = "'MaterialYou'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 
 [Youtube-Music]
-enabled = false
 app-name = "Youtube Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
