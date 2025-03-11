@@ -114,7 +114,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="@rvc_magisk"
+          TG_CHAT="@schoolbustesting"
           NL=$'\n'
           APKS=""
           MODULES=""
@@ -130,16 +130,13 @@ jobs:
           APKS=${APKS#"$NL"}
 
           BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
-          MSG="*New build!*
+          MSG="*New build available.*
 
           ${BODY}
-
-          *▼ Download Links:*
-          Modules:
+          *Check for updates in Magisk/KSU(N).*
+          *Or download:*
+          Modules
           ${MODULES}
-
-          APKs:
-          ${APKS}
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
