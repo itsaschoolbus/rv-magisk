@@ -139,6 +139,7 @@ jobs:
           
           Modules
           ${MODULES}
+          Make sure to download the correct architecture for your device!
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
