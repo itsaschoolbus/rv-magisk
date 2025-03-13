@@ -23,6 +23,6 @@ excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding na
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 patches-source = "inotia00/revanced-patches"
 rv-brand = "ReVanced Extended"
-arch = "both"
+arch = "universal"
 dpi = "120-640dpi"
 build-mode = "module"
