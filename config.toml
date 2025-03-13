@@ -18,3 +18,10 @@ rv-brand = "ReVanced Extended"
 arch = "both"
 build-mode = "module"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Dark theme'"
+
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+patches-source = "inotia00/revanced-patches"
+rv-brand = "ReVanced Extended"
+arch = "both"
+build-mode = "module"
