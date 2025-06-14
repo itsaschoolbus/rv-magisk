@@ -5,16 +5,23 @@ parallel-jobs = 1
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 rv-brand = "ReVanced Extended"
-arch = "both"
+arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'MaterialYou'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 
 [Youtube-Music]
-app-name = "Youtube Music"
+app-name = "YT Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 rv-brand = "ReVanced Extended"
-arch = "both"
+arch = "arm64-v8a"
 build-mode = "module"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Dark theme'"
+
+[Spotify]
+app-name = "Spotify"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+arch = "arm64-v8a"
+build-mode = "module"
