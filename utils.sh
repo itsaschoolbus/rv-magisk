@@ -629,7 +629,8 @@ name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
 author=itsaschoolbus
-description=${4}" >"${6}/module.prop"
+description=${4}
+banner=https://raw.githubusercontent.com/ReVanced/.github/main/profile/assets/revanced-headline/revanced-headline-vertical-dark.svg" >"${6}/module.prop"
 
 	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
 }
