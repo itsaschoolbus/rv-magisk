@@ -2,6 +2,7 @@ enable-magisk-update = true
 parallel-jobs = 1
 
 [YouTube]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 rv-brand = "ReVanced Extended"
@@ -11,6 +12,7 @@ included-patches = "'MaterialYou'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 
 [Youtube-Music]
+enabled = false
 app-name = "YT Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
@@ -24,4 +26,4 @@ app-name = "Spotify"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 build-mode = "module"
-included-patches = "'Predictive back gesture' 'Spoof SIM country' 'Hide mock location' 'Spoof Wi-Fi connection' 'Hide ADB status' 'Remove screenshot restriction' 'Remove screen capture restriction' 'Disable Pairip license check'"
+included-patches = "'Predictive back gesture' 'Remove screenshot restriction' 'Remove screen capture restriction'"
