@@ -134,7 +134,7 @@ jobs:
 
           ${BODY}
           
-          Check for updates in Magisk/KSU(N).
+          Check for updates in Magisk/KSU.
           Or download:
           
           Modules
