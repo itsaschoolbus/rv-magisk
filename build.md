@@ -1,11 +1,10 @@
-YouTube: 19.47.53  
-Youtube-Music: 8.12.53  
+Spotify: 9.0.68.613  
 
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: inotia00/patches-5.8.1.rvp  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.8.1)  
+Patches: ReVanced/patches-5.33.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.33.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.32.0.rvp    
+Patches: inotia00/patches-5.8.1.rvp    

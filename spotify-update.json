@@ -1,6 +1,6 @@
 {
-  "version": "v9.0.66.634 (patches 5.32.0)",
-  "versionCode": 15,
-  "zipUrl": "https://github.com/itsaschoolbus/rv-magisk/releases/download/15/spotify-revanced-magisk-v9.0.66.634-all.zip",
+  "version": "v9.0.68.613 (patches 5.33.0)",
+  "versionCode": 17,
+  "zipUrl": "https://github.com/itsaschoolbus/rv-magisk/releases/download/17/spotify-revanced-magisk-v9.0.68.613-all.zip",
   "changelog": "https://raw.githubusercontent.com/itsaschoolbus/rv-magisk/update/build.md"
 }
